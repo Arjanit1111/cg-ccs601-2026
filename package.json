@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "shtepia": "vite \"java i/detyra-shtepia\"",
+    "sistemi-solar": "vite \"java ii/detyra-sistemi-solar\"",
+    "dora-robotike": "vite \"java iii/detyra-dora-robotike\""
+  },
+  "dependencies": {
+    "three": "^0.186.1",
+    "vite": "^8.3.4"
+  }
+}

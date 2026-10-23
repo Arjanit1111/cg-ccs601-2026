@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Java III - Detyra: Dora robotike</title>
+        <style>
+            body { margin: 0; overflow: hidden; }
+            #scene canvas { display: block; }
+            #info {
+                position: absolute; top: 10px; left: 10px;
+                padding: 10px 14px; background: rgba(255,255,255,0.9);
+                font-family: sans-serif; font-size: 13px; line-height: 1.5;
+                border-radius: 6px;
+            }
+            #info b { display: inline-block; min-width: 70px; }
+        </style>
+    </head>
+    <body>
+        <div id="info">
+            <div><b>Q / A</b> supi</div>
+            <div><b>W / S</b> berryli</div>
+            <div><b>E / D</b> kycja e dores</div>
+            <div><b>1 - 5</b> zgjidh gishtin (1 = gishti i madh), <b>0</b> = te gjithe</div>
+            <div><b>R / F</b> perkul / drejto gishtin e zgjedhur</div>
+            <div><b>G / H</b> mbyll grushtin / hap doren</div>
+            <div id="selected">I zgjedhur: te gjithe gishtat</div>
+        </div>
+        <div id="scene"></div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
